@@ -8,6 +8,12 @@ This repository is a starter implementation that combines:
 
 The implementation is designed around a shared product installation and multiple per-instance runtime directories.
 
+## Architecture
+
+![JBoss EAP 8.1 Autoscaler + OpenAI Architecture](docs/images/jboss_eap_openai_autoscaler_architecture.svg)
+
+The diagram below shows the control flow between the autoscaler, OpenAI policy layer, Ansible provisioning workflow, and the JBoss EAP instances.
+
 ## What this repo does
 
 - installs JBoss EAP 8.1 from a ZIP archive
